@@ -61,15 +61,17 @@ body{
 }
 .TodoItem-Container{
     display: flex;
+    font-size: 14px;
 }
 .TodoItem-Checkbox{
     width: 16px;
     height: 16px;
 }
 .TodoItemOverdue-Label{
-    margin-left:10 px;
-    color: black;
+    margin-left: 10px;
+    color: red;
     fontsize: 12px;
+
 }
 .TodoItem-Delete{
     visibility: hidden;
